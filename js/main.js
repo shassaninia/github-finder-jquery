@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  
+
   $('#searchUser').on('keyup', function(e){
     let username = e.target.value;
 
@@ -40,6 +40,7 @@ $(document).ready(function(){
           `);
         });
       });
+      
       $('#profile').html(`
         <div class="panel panel-default">
           <div class="panel-heading">
