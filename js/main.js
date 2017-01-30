@@ -40,6 +40,7 @@ $(document).ready(function(){
           `);
         });
       });
+      
       $('#profile').html(`
         <div class="panel panel-default">
           <div class="panel-heading">
